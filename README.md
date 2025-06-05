@@ -58,59 +58,58 @@ usuarios_grupos: relación N:M entre usuarios y grupos
 gastos: información detallada de cada gasto realizado
 
 📁 Estructura del proyecto
-bash
-Copiar
-Editar
+```
 PAGA.ME/
-│
-├── db/
-│   └── connection.php                  # Conexión a la base de datos
-│
-├── img/
-│   └── logo.jpeg                       # Logotipo de la aplicación
-│
-├── includes/
-│   ├── head.php                        # Cabecera HTML compartida
-│   ├── header.php                      # Menú superior
-│   └── app/footer.php                  # Pie de página común
-│
-├── mail/
-│   ├── config.php                      # Configuración del envío de correos
-│   ├── enviar_mail_registro.php       # Mail de activación
-│   └── enviar_mail_reset.php          # Mail de recuperación
-│
-├── pdf/
-│   ├── fpdf/                           # Librería FPDF
-│   └── exportar-grupo.php             # Exporta información del grupo a PDF
-│
-├── php/                                # Scripts principales del backend
-│   ├── activate.php
-│   ├── crear-gasto.php
-│   ├── crear-grupo.php
-│   ├── get-grupo.php
-│   ├── get-grupos.php
-│   ├── leave-grupo.php
-│   ├── login.php
-│   ├── register.php
-│   ├── remember.php
-│   ├── reset_password.php
-│   ├── unirse-grupo.php
-│   └── update-profile.php
-│
-├── styles/
-│   ├── styles.css                      # Estilos generales
-│   └── app.css                         # Estilos específicos de vistas
-│
-├── views/
-│   ├── app/
-│   │   └── grupos.php                  # Página principal del usuario logueado
-│   ├── login.php
-│   ├── register.php
-│   ├── remember.php
-│   └── reset_password.php
-│
-├── index.php                           # Página de inicio
-└── README.md                           # Este archivo
+        │
+        ├── db/
+        │   └── connection.php                  # Conexión a la base de datos
+        │
+        ├── img/
+        │   └── logo.jpeg                       # Logotipo de la aplicación
+        │
+        ├── includes/
+        │   ├── head.php                        # Cabecera HTML compartida
+        │   ├── header.php                      # Menú superior
+        │   └── app/footer.php                  # Pie de página común
+        │
+        ├── mail/
+        │   ├── config.php                      # Configuración del envío de correos
+        │   ├── enviar_mail_registro.php       # Mail de activación
+        │   └── enviar_mail_reset.php          # Mail de recuperación
+        │
+        ├── pdf/
+        │   ├── fpdf/                           # Librería FPDF
+        │   └── exportar-grupo.php             # Exporta información del grupo a PDF
+        │
+        ├── php/                                # Scripts principales del backend
+        │   ├── activate.php
+        │   ├── crear-gasto.php
+        │   ├── crear-grupo.php
+        │   ├── get-grupo.php
+        │   ├── get-grupos.php
+        │   ├── leave-grupo.php
+        │   ├── login.php
+        │   ├── register.php
+        │   ├── remember.php
+        │   ├── reset_password.php
+        │   ├── unirse-grupo.php
+        │   └── update-profile.php
+        │
+        ├── styles/
+        │   ├── styles.css                      # Estilos generales
+        │   └── app.css                         # Estilos específicos de vistas
+        │
+        ├── views/
+        │   ├── app/
+        │   │   └── grupos.php                  # Página principal del usuario logueado
+        │   ├── login.php
+        │   ├── register.php
+        │   ├── remember.php
+        │   └── reset_password.php
+        │
+        ├── index.php                           # Página de inicio
+        └── README.md                           # Este archivo
+```
 👩‍💻 Autora
 Ana Belén García Milla
 Este proyecto ha sido desarrollado como Trabajo de Fin de Ciclo para el título de Técnico Superior en Desarrollo de Aplicaciones Web.
